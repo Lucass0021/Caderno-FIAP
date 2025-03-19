@@ -10,5 +10,5 @@ Bem-vindo ao meu caderno digital! Aqui estão minhas anotações, exercícios e 
   - [Computer Science](Semestre-1/Computer-Science)
   - [Modelagem Linear para Aprendizado de Máquina](Semestre-1/Modelagem-Linear-para-Aprendizado-de-Máquina)
   - [Modelagem Matemática e Computacional](Semestre-1/Modelagem-Matemática-e-Computacional)
-  - [Computer Science](Semestre-1/Computer-Science)
+  - [Pensamento Computacional e Automação com Python](Semestre-1/Pensamento-Computacional-e-Automação-com-Python)
   - [Computer Science](Semestre-1/Computer-Science)
