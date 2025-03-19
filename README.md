@@ -8,7 +8,7 @@ Bem-vindo ao meu caderno digital! Aqui estão minhas anotações, exercícios e 
   - [Computer Organization and Architeture](Semestre-1/Computer-Organization-and-Architeture) 
   - [Soluções em Energias Renováveis e Sustentáveis](Semestre-1/Soluções-em-Energias-Renováveis-Sustentáveis) 
   - [Computer Science](Semestre-1/Computer-Science)
-  - [Computer Science](Semestre-1/Computer-Science)
+  - [Modelagem Linear para Aprendizado de Máquina](Semestre-1/Modelagem-Linear-para-Aprendizado-de-Máquina)
   - [Computer Science](Semestre-1/Computer-Science)
   - [Computer Science](Semestre-1/Computer-Science)
   - [Computer Science](Semestre-1/Computer-Science)
