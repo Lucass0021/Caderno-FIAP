@@ -1,2 +1,2 @@
-## Data: [Todas as Quintas-Feiras]
+## Data: [Todas as Terças-Feiras]
 ## Professor: [Hete Caetano]
