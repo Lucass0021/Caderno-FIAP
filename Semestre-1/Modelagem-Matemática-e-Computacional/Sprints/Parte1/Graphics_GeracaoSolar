@@ -1,0 +1,28 @@
+// Vetores com os dados de hora (t) e geração (E)
+t = [6 7 8 9 10 11 12 13 14 15 16 17 18];
+E = [220.47 652.52 1074.517 1411.866 1075.944 1156.144 1179.673 1183.623 1033.932 815.447 560.734 272.858 13.504];
+
+// Ajuste da parábola (polinômio de 2º grau)
+p = polyfit(t, E, 2); // p terá os coeficientes [a b c]
+
+// Gerando pontos para o gráfico da função ajustada
+t_fit = linspace(6, 18, 100); // intervalo entre 6h e 18h
+E_fit = p(1)*t_fit.^2 + p(2)*t_fit + p(3); // E(t) = at² + bt + c
+
+// Plotando o gráfico com os dados reais e a curva ajustada
+clf();
+plot(t, E, 'ro');         // pontos reais (vermelhos)
+plot(t_fit, E_fit, 'b-'); // curva ajustada (azul)
+
+// Adicionando título e rótulos
+xtitle("Geração de Energia Solar ao Longo do Dia", "Hora do dia", "Energia (W)");
+
+// Adicionando legenda
+legend("Dados reais", "Curva ajustada", 1);
+
+// Verificando Coeficientes no prompt
+disp("Coeficientes da parábola: ");
+disp(p); // p(1) = a, p(2) = b, p(3) = c
+
+
+
